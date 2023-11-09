@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            /* border: 1px solid black; */
+            height: 80.9vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-family: Arial;
+        }
+
+        .input {
+            width: 500px;
+            border: none;
+            height: 30px;
+            outline: none;
+            font-size: 15px;
+            opacity: 0.7;
+        }
+
+        .search {
+            border: 1px solid grey;
+            width: 560px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50px;
+        }
+
+        .textwrap {
+            display: flex;
+            justify-content: center;
+        }
+
+        .innertext {
+            background: rgb(235, 230, 230);
+            margin: 30px 5px;
+            padding: 5px 10px;
+            font-size: 15px;
+        }
+
+        .click {
+            text-decoration: none;
+            color: black;
+        }
+
+        .lang {
+            font-size: 14px;
+        }
+
+        .bhasha {
+            text-decoration: none;
+            padding: 0px 2px;
+        }
+
+        .header-row {
+            height: 45px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .header {
+            margin-right: 30px;
+        }
+
+        .head {
+            text-decoration: none;
+            color: black;
+            padding: 0px 6px;
+            font-size: 14px;
+        }
+
+        .sign-in {
+            text-decoration: none;
+            color: white;
+            background: blue;
+            padding: 7px 20px;
+            font-size: 14px;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        .footer-row {
+            background: rgb(208, 204, 204);
+            height: 40px;
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            font-family: arial;
+            border-bottom: 1px solid rgb(168, 162, 162);
+        }
+
+        .india {
+            color: black;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .footer-row2 {
+            background: rgb(208, 204, 204);
+            display: flex;
+            align-items: center;
+            height: 40px;
+            font-size: 14px;
+            font-family: arial;
+        }
+
+        .footer1 {
+            width: 50%;
+            display: flex;
+        }
+
+        .footer2 {
+            width: 50%;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .footer1-content {
+            color: black;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+
+        .footer2-content {
+            color: black;
+            text-decoration: none;
+            margin-right: 25px;
+        }
+
+        .search-icon {
+            /* border: 1px solid black; */
+            padding: 7px;
+            opacity: 0.6;
+            margin-top: 1px;
+        }
+
+        .mic-icon {
+            /* border: 1px solid black; */
+            padding: 7px;
+            margin-top: 2px;
+        }
+
+        .google-icon {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header-row">
+        <div class="header">
+            <a href="#" class="head">Gmail</a>
+            <a href="#" class="head">Images</a>
+        </div>
+        <a href="#" class="sign-in">Sign In</a>
+    </header>
+    <div class="container">
+        <a href="#" class="google-icon"><img src="google-icon.png" width="250px"></a>
+        <div class="search">
+            <a href="#" class="search-icon"><img src="search-icon.png" width="12px"></a>
+            <input class="input" type="search" placeholder="Search Google or type a URL">
+            <a href="#" class="mic-icon"><img src="mic-icon.png" width="11px"></a>
+        </div>
+        <div class="textwrap">
+            <div class="innertext"><a href="#" class="click">Google Search</a></div>
+            <div class="innertext"><a href="#" class="click">I'm Feeling Lucky</a></div>
+        </div>
+        <div class="language">
+            <div class="lang">Google offered in:
+                <a href="#" class="bhasha">hindi</a>
+                <a href="#" class="bhasha">marathi</a>
+                <a href="#" class="bhasha">tamil</a>
+                <a href="#" class="bhasha">gujrati</a>
+                <a href="#" class="bhasha">panjabi</a>
+                <a href="#" class="bhasha">telugu</a>
+                <a href="#" class="bhasha">malyalam</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-row">
+            <a href="#" class="india">India</a>
+        </div>
+        <div class="footer-row2">
+            <div class="footer1">
+                <a href="#" class="footer1-content">About</a>
+                <a href="#" class="footer1-content">Advertising</a>
+                <a href="#" class="footer1-content">Business</a>
+                <a href="#" class="footer1-content">How Search Works</a>
+            </div>
+            <div class="footer2">
+                <a href="#" class="footer2-content">Privacy</a>
+                <a href="#" class="footer2-content">Terms</a>
+                <a href="#" class="footer2-content">Settings</a>
+            </div>
+        </div>
+    </footer>
+    <script>
+    </script>
+</body>
+
+</html>
